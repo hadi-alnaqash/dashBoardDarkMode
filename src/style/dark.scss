@@ -1,0 +1,56 @@
+.app.dark{
+
+    background-color: #222;
+    color: white;
+
+    .TableContainer{
+        background-color: #222;
+        border: none;
+
+        .tableCell{
+            color: gray;
+        }
+    }
+
+    .navbar{
+        .warper{
+            .search{
+                input{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .home{
+        .homeContainer{
+            hr{
+                border: 0.5px solid #333;
+            }
+        }
+    }
+
+    .sidebar{
+        border-right: 0.5px solid #333;
+        hr{
+            border: 0.5px solid #333;
+        }
+        .top{
+            .logo{
+                color: #999
+            }
+        }
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+
+                .icon{
+                    color:#999;
+                }
+            }
+        }
+    }
+}
+

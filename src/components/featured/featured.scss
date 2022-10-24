@@ -1,0 +1,76 @@
+.featured{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    box-shadow: 3px 6px 21px -2px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    padding: 5px;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        color: gray;
+
+        .title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .progressBar{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+
+        .progressChart{
+            height: 100px;
+            width: 100px;
+        } 
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        .title{
+            font-weight: 500px;
+            color: gray;
+        }
+        .amount{
+            font-size: 30px;
+        }
+        .description{
+            font-weight: 300;
+            font-size: 12px;
+            color: gray;
+        }
+    }
+
+    .progress{
+        display: flex;
+        justify-content: space-between ;
+        margin-top: 1rem;
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .amount{
+                display: flex;
+                align-items: center;
+                margin: 10px 15px 0;
+
+                &.positive{
+                    color: green;
+                }
+                &.negtive{
+                    color: red;
+                }
+            }
+        }
+    }
+}
